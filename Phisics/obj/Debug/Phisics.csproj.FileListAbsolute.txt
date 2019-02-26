@@ -1,0 +1,53 @@
+D:\Phisics\Phisics\obj\Debug\Phisics.csprojResolveAssemblyReference.cache
+D:\Phisics\Phisics\obj\Debug\Phisics.Form1.resources
+D:\Phisics\Phisics\obj\Debug\Phisics.csproj.GenerateResource.Cache
+D:\Phisics\Phisics\obj\Debug\Phisics.csproj.CoreCompileInputs.cache
+E:\Phisics\Phisics\bin\Debug\Phisics.exe.config
+E:\Phisics\Phisics\bin\Debug\Phisics.exe
+E:\Phisics\Phisics\bin\Debug\Phisics.pdb
+E:\Phisics\Phisics\obj\Debug\Phisics.csprojResolveAssemblyReference.cache
+E:\Phisics\Phisics\obj\Debug\Phisics.Form1.resources
+E:\Phisics\Phisics\obj\Debug\Phisics.Properties.Resources.resources
+E:\Phisics\Phisics\obj\Debug\Phisics.csproj.GenerateResource.Cache
+E:\Phisics\Phisics\obj\Debug\Phisics.csproj.CoreCompileInputs.cache
+E:\Phisics\Phisics\obj\Debug\Phisics.exe
+E:\Phisics\Phisics\obj\Debug\Phisics.pdb
+E:\Phisics\Phisics\obj\Debug\Phisics.Theory.resources
+D:\Phisics\Phisics\obj\Debug\Phisics.Theory.resources
+D:\Phisics\Phisics\obj\Debug\Phisics.Help.resources
+D:\Phisics\Phisics\obj\Debug\Phisics.About.resources
+D:\Phisics\Phisics\obj\Debug\Phisics.Instruction.resources
+D:\Phisics\Phisics\obj\Debug\RealGases.Properties.Resources.resources
+D:\Phisics\Phisics\bin\Debug\Реальные газы.exe.config
+D:\Phisics\Phisics\bin\Debug\Реальные газы.exe
+D:\Phisics\Phisics\bin\Debug\Реальные газы.pdb
+D:\Phisics\Phisics\obj\Debug\Реальные газы.exe
+D:\Phisics\Phisics\obj\Debug\Реальные газы.pdb
+E:\Проекты\Phisics\Phisics\bin\Debug\Реальные газы.exe.config
+E:\Проекты\Phisics\Phisics\bin\Debug\Реальные газы.exe
+E:\Проекты\Phisics\Phisics\bin\Debug\Реальные газы.pdb
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.csprojResolveAssemblyReference.cache
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.About.resources
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.Form1.resources
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.Help.resources
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.Instruction.resources
+E:\Проекты\Phisics\Phisics\obj\Debug\RealGases.Properties.Resources.resources
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.Theory.resources
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.csproj.GenerateResource.cache
+E:\Проекты\Phisics\Phisics\obj\Debug\Phisics.csproj.CoreCompileInputs.cache
+E:\Проекты\Phisics\Phisics\obj\Debug\Реальные газы.exe
+E:\Проекты\Phisics\Phisics\obj\Debug\Реальные газы.pdb
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\bin\Debug\Реальные газы.exe.config
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\bin\Debug\Реальные газы.exe
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\bin\Debug\Реальные газы.pdb
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.csprojAssemblyReference.cache
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.About.resources
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.Form1.resources
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.Help.resources
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.Instruction.resources
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\RealGases.Properties.Resources.resources
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.Theory.resources
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.csproj.GenerateResource.cache
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Phisics.csproj.CoreCompileInputs.cache
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Реальные газы.exe
+C:\Users\nagat\Documents\WORK\Phisics\Phisics\obj\Debug\Реальные газы.pdb
