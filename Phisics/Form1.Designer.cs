@@ -56,6 +56,7 @@ namespace Phisics
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.укрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CylynderBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Os)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TemperatureBar)).BeginInit();
@@ -301,6 +302,22 @@ namespace Phisics
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(141, 612);
             this.panel1.TabIndex = 16;
+            this.panel1.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(591, 81);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(38, 32);
+            this.button1.TabIndex = 17;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // укрToolStripMenuItem
             // 
@@ -332,6 +349,7 @@ namespace Phisics
             this.Controls.Add(this.TemperatureLabel);
             this.Controls.Add(this.CylynderBox);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -375,6 +393,7 @@ namespace Phisics
         private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripMenuItem укрToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 
