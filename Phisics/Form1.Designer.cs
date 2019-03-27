@@ -1,4 +1,7 @@
-﻿namespace Phisics
+﻿using System.Reflection;
+using System.Resources;
+
+namespace Phisics
 {
     partial class Form1
     {
@@ -28,6 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Resources.ResourceManager rm = new System.Resources.ResourceManager("RealGases.Properties." + RealGases.Properties.Settings.Default["lang"], typeof(Form1).Assembly);
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.CylynderBox = new System.Windows.Forms.PictureBox();
@@ -51,6 +55,7 @@
             this.инструкцияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.укрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.CylynderBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Os)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TemperatureBar)).BeginInit();
@@ -202,18 +207,18 @@
             this.GasChanger.Enabled = false;
             this.GasChanger.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.GasChanger.Items.AddRange(new object[] {
-            "Углекислый газ",
-            "Сероводород",
+            rm.GetString("gas0"),
+            rm.GetString("gas1"),
             "Хлор",
             "Бром",
-            "Перекись азота",
-            "Двуокись серы",
+            rm.GetString("gas4"),
+           rm.GetString("gas5"),
             "Пропан"});
             this.GasChanger.Location = new System.Drawing.Point(183, 81);
             this.GasChanger.Name = "GasChanger";
             this.GasChanger.Size = new System.Drawing.Size(147, 26);
             this.GasChanger.TabIndex = 12;
-            this.GasChanger.Text = "Углекислый газ";
+            this.GasChanger.Text = rm.GetString("gas0");
             this.GasChanger.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // StopButton
@@ -252,7 +257,8 @@
             this.теорияToolStripMenuItem,
             this.справкаToolStripMenuItem,
             this.инструкцияToolStripMenuItem,
-            this.оПрограммеToolStripMenuItem});
+            this.оПрограммеToolStripMenuItem,
+            this.укрToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 28);
@@ -263,7 +269,7 @@
             // 
             this.теорияToolStripMenuItem.Name = "теорияToolStripMenuItem";
             this.теорияToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
-            this.теорияToolStripMenuItem.Text = "Теория";
+            this.теорияToolStripMenuItem.Text = rm.GetString("theory");
             this.теорияToolStripMenuItem.Click += new System.EventHandler(this.теорияToolStripMenuItem_Click);
             // 
             // справкаToolStripMenuItem
@@ -277,14 +283,14 @@
             // 
             this.инструкцияToolStripMenuItem.Name = "инструкцияToolStripMenuItem";
             this.инструкцияToolStripMenuItem.Size = new System.Drawing.Size(103, 24);
-            this.инструкцияToolStripMenuItem.Text = "Инструкция";
+            this.инструкцияToolStripMenuItem.Text = rm.GetString("instruction");
             this.инструкцияToolStripMenuItem.Click += new System.EventHandler(this.инструкцияToolStripMenuItem_Click);
             // 
             // оПрограммеToolStripMenuItem
             // 
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
             this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
-            this.оПрограммеToolStripMenuItem.Text = "О программе";
+            this.оПрограммеToolStripMenuItem.Text = rm.GetString("about");
             this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
             // panel1
@@ -295,6 +301,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(141, 612);
             this.panel1.TabIndex = 16;
+            // 
+            // укрToolStripMenuItem
+            // 
+            this.укрToolStripMenuItem.Name = "укрToolStripMenuItem";
+            this.укрToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.укрToolStripMenuItem.Text = rm.GetString("lang");
+            this.укрToolStripMenuItem.Click += new System.EventHandler(this.укрToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -325,7 +338,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Реальные газы";
+            this.Text = rm.GetString("lab_name");
             ((System.ComponentModel.ISupportInitialize)(this.CylynderBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Os)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TemperatureBar)).EndInit();
@@ -361,6 +374,7 @@
         private System.Windows.Forms.ToolStripMenuItem инструкцияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem укрToolStripMenuItem;
     }
 }
 

@@ -73,8 +73,24 @@
     <Compile Include="Instruction.Designer.cs">
       <DependentUpon>Instruction.cs</DependentUpon>
     </Compile>
+    <Compile Include="Language.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\ua.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ua.resx</DependentUpon>
+    </Compile>
     <Compile Include="Theory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,14 +111,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="Properties\ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\ua.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ua.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Theory.resx">
       <DependentUpon>Theory.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,36 +139,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Цилиндр.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\термостат.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ЦилиндрMod.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ось.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\термостатMod.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Termostat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TermostatMod.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\newTermostat.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\термостат1.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <Content Include="Resources\theory.jpg" />
+    <Content Include="Resources\theory_ua.jpg" />
     <None Include="Resources\instruction.jpg" />
-    <None Include="Resources\theory.jpg" />
     <None Include="Resources\Справка.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -46,7 +46,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::RealGases.Properties.Resources.theory;
+            if(RealGases.Properties.Settings.Default["lang"] as string == "ru")
+                this.pictureBox1.BackgroundImage =  global::RealGases.Properties.Resources.theory;
+            else this.pictureBox1.BackgroundImage = global::RealGases.Properties.Resources.theory_ua;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(458, 3498);

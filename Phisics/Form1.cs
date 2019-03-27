@@ -151,7 +151,25 @@ namespace Phisics
             new Instruction().Show();
         }
 
-        
+        private void укрToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RealGases.Language.ChangeLanguage();
+            global::System.Resources.ResourceManager rm = new global::System.Resources.ResourceManager("RealGases.Properties."+ RealGases.Properties.Settings.Default["lang"] as string, typeof(Form1).Assembly);
+            теорияToolStripMenuItem.Text = rm.GetString("theory");
+            оПрограммеToolStripMenuItem.Text = rm.GetString("about");
+            инструкцияToolStripMenuItem.Text = rm.GetString("instruction");
+            укрToolStripMenuItem.Text = rm.GetString("lang");
+            Text = rm.GetString("lab_name");
+            for (int i = 0; i < GasChanger.Items.Count; i++)
+            {
+                switch (i) {
+                    case 2: GasChanger.Items[i] = "Хлор"; break;
+                    case 3: GasChanger.Items[i] = "Бром"; break;
+                    case 6: GasChanger.Items[i] = "Пропан"; break;
+                    default: GasChanger.Items[i] = rm.GetString("gas" + i); break;
+                }
+            } 
+        }
     }
 
     public static class Environment
